@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Warehouse for MonCinema Company</title>
+    <!--Google font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mali:wght@400;700&display=swap" rel="stylesheet">
+    <!--Pure-->
+    <link rel="stylesheet" href="https://unpkg.com/purecss@2.0.3/build/pure-min.css"
+        integrity="sha384-cg6SkqEOCV1NbJoCu11+bm0NvBRc8IYLRGXkmNrqUBfTjmMYwNKPWBTIKyw9mHNJ" crossorigin="anonymous">
+    <!--CSS file-->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div id="page">
+        <div class="pure-g">
+            <div class="pure-u-1">
+                <h1>
+                    Data Warehouse for MonCinema Company
+                </h1>
+            </div>
+        </div>
+        <div class="pure-g">
+            <div class="pure-u-1">
+                <h3>
+                    About this project
+                </h3>
+                <p>
+                    This project was a group school assignment completed in September 2021.
+                </p>
+                <p>
+                    We were provided with an operational database that stores and maintains all of the business transaction 
+                    information required for the daily operation of a cinema company in an Oracle account. The objective of this 
+                    project was to design and create a data warehouse that could be used to answer a series of online analytical 
+                    processing (OLAP) queries.
+                </p>
+            </div>
+        </div>
+        <div class="pure-g">
+            <div class="pure-u-1">
+                <h3>
+                    Project outcomes
+                </h3>
+                <p>
+                    This project was executed in 3 stages:
+                </p>
+                <ul>
+                    <li>
+                        Explore the operational database and clean the data.
+                    </li>
+                    <li>
+                        Design and implement the data warehouse represented by 2 versions of star schema diagrams.
+                    </li>
+                    <li>
+                        Generate Business Intelligence (BI) reports based on the Online Analytical Processing (OLAP) queries.
+                    </li>
+                </ul>
+                <p>
+                    In the <b>first stage</b>, I was responsible for producing the Entity Relationship Diagram (ERD) to represent 
+                    the structure of the operational database.
+                </p>
+                <div class="image">
+                    <img src="images/1.png" alt="Entity Relationship Diagram">
+                </div>
+                <p>
+                    In the <b>second stage</b>, my teammates and I produced the 2 versions of star schema diagrams together.
+                </p>
+                <ul>
+                    <li>
+                        Version 1 has a high level of aggregation and a low level of granularity.
+                    </li>
+                    <li>
+                        Version 2 has no aggregation and the highest level of granularity.
+                    </li>
+                </ul>
+                <p>
+                    After that, we equally distributed the implementation part among ourselves. I was responsible for writing the 
+                    code to create several dimension and bridge tables. Below is a snippet of my codework, which was written using
+                    the SQL programming language. 
+                </p>
+                <div class="image">
+                    <img src="images/2.png" alt="Codework 1">
+                </div>
+                <p>
+                    In the <b>third stage</b>, I was responsible for producing the Business Intelligence (BI) reports based on the 
+                    following 3 Online Analytical Processing (OLAP) queries:
+                </p>
+                <ul>
+                    <li>
+                        What are the top 5 movies that sold the most tickets in 2020? Display the names and the reviews of movies.
+                    </li>
+                    <li>
+                        What movies made up the top 5% revenue of cinemas in Melbourne? Display the names and the reviews of 
+                        movies.
+                    </li>
+                    <li>
+                        How do the movies booked through mobile app rank based on their total sales revenue?
+                    </li>
+                </ul>
+                <p>
+                    Below is a snippet of my codework and one of the Business Intelligence (BI) reports produced for the third 
+                    stage.
+                </p>
+                <div class="image">
+                    <img src="images/3.png" alt="Codework 1">
+                </div>
+                <div><p></p></div>
+                <div class="image">
+                    <img src="images/4.png" alt="Codework 1">
+                </div>
+            </div>
+        </div>
+        <div class="pure-g">
+            <div class="pure-u-1">
+                <h3>
+                    Summary
+                </h3>
+                <ul>
+                    <li>
+                        Programming language: SQL
+                    </li>
+                    <li>
+                        Scope: Data Warehousing
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
